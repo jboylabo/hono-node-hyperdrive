@@ -47,7 +47,7 @@ drizzle-hono-app/
 ```yaml
 services:
   db:
-    image: postgres:16-alpine
+    image: postgres:17-alpine
     ports:
       - "5432:5432"
     environment:

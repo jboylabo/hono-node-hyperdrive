@@ -6,7 +6,7 @@
     "useIgnoreFile": true
   },
   "files": {
-    "includes": ["**", "!**/dist", "!**/.wrangler", "!**/drizzle/**/*.sql"],
+    "includes": ["**", "!**/dist", "!**/.wrangler", "!**/drizzle"],
     "ignoreUnknown": true
   },
   "formatter": {
