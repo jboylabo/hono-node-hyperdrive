@@ -3,15 +3,11 @@
   "compilerOptions": {
     "target": "ESNext",
     "module": "NodeNext",
+    "moduleResolution": "NodeNext",
     "strict": true,
-    "verbatimModuleSyntax": true,
     "skipLibCheck": true,
     "types": ["node"],
-    "jsx": "react-jsx",
-    "jsxImportSource": "hono/jsx",
-    "rootDir": "./src",
-    "outDir": "./dist"
+    "noEmit": true
   },
-  "include": ["src"],
-  "exclude": ["node_modules"]
+  "include": ["drizzle.config.ts"]
 }
